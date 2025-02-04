@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import streamlit as st
 from pandas.api.types import is_integer_dtype,is_float_dtype,is_object_dtype
@@ -6,7 +7,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
-import os
 import matplotlib.font_manager as fm
 
 @st.cache_data
