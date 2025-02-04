@@ -17,7 +17,6 @@ def fontRegistered():
         fm.fontManager.addfont(font_file)
     fm._load_fontmanager(try_read_cache=False)
 
-
 import platform
 
 if platform.system() == 'Windows':
